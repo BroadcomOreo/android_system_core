@@ -55,7 +55,8 @@ cc_library {
         support_system_process: true,
     },
     host_supported: true,
-    srcs: [       
+    srcs: [
+        "cutils/atomic.h"      
         "config_utils.c",
         "fs_config.cpp",
         "canned_fs_config.c",
